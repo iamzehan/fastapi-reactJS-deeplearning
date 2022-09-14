@@ -66,3 +66,37 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+# For Backend 
+
+## Create Virtual Environment
+
+            virtualenv <env_name>
+     
+## Activate Envrionment
+
+            <env_folder>\Script\activate
+
+## Install dependencies
+(Assuming you have pip and python already installed)
+
+            pip install -r requirement.txt
+## Run Project
+            uvicorn app.py:app
+### Or
+            uvicorn app.py:app --relaoad
+  
+## Open in Browser
+            http://127.0.0.1:8000/
+
+## Open Docs
+            http://127.0.0.1:8000/docs
+            
+## Generate random SECRET KEY
+<code>** git bash cli required </code>
+           
+           openssl rand -hex 32
+
+
+      
