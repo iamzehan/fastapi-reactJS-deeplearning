@@ -10,8 +10,7 @@ import tensorflow as tf
 app = FastAPI(docs_url='/')
 
 origins = [
-    "http://localhost:3000",
-    "localhost:3000"
+    "*"
 ]
 
 
