@@ -35,7 +35,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Run Project
             uvicorn app.py:app
 ### Or
-            uvicorn app.py:app --relaoad
+            uvicorn app.py:app --reload
   
 ## Open in Browser
             http://127.0.0.1:8000/
